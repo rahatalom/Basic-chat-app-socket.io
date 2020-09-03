@@ -1,0 +1,124 @@
+/*Join form css */
+.join-form {
+  padding: 220px 100px 100px 100px;
+  text-align: center;
+}
+
+.join-form-title {
+  color: orange;
+  font-family: "Recursive", sans-serif;
+}
+
+body {
+  background-color: steelblue;
+}
+
+.i-1 {
+  display: block;
+  text-align: center;
+  margin: auto auto;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.i-2 {
+  display: block;
+  text-align: center;
+  margin: auto auto;
+  padding: 5px 10px;
+}
+
+.join-button {
+  margin-top: 20px;
+  padding: 5px 84px;
+  font-family: "Recursive", sans-serif;
+}
+
+/*Chat room css */
+
+.chatTitle {
+  padding-top: 60px;
+  color: orange;
+  font-family: "Recursive", sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+#chat-room {
+  max-width: 400px;
+  margin: 30px auto;
+  border: 6px solid orange;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+}
+
+#chat-window {
+  height: 320px;
+  overflow: auto;
+  background: #f9f9f9;
+}
+
+#feedback2 p {
+  color: #aaa;
+}
+
+#output p {
+  padding: 14px 0px;
+  margin: 0 20px;
+  border-bottom: 1px solid rgba(255, 166, 0, 0.479);
+  color: #555;
+  font-family: "Recursive", sans-serif;
+}
+
+#feedback p {
+  color: #aaa;
+  padding: 14px 0px;
+  margin: 0 20px;
+}
+
+#output strong {
+  color: steelblue;
+}
+
+label {
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px;
+}
+
+#username {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #eee;
+  border: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: "Recursive", sans-serif;
+  font-size: 16px;
+}
+
+#texts {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #eee;
+  border: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: "Recursive", sans-serif;
+  font-size: 16px;
+}
+
+#send {
+  background: orange;
+  color: steelblue;
+  font-size: 18px;
+  border: 0;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+  font-family: "Recursive", sans-serif;
+}
